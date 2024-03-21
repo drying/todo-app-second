@@ -1,0 +1,42 @@
+.todo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #f3f3f3;
+    cursor: pointer;
+}
+
+.todo:hover {
+    background-color: #ecf1ff;
+}
+
+.left-items {
+    display: flex;
+    align-items: center;
+}
+
+.left-items p {
+    padding-right: 10px;
+}
+
+.right-items {
+    display: flex;
+    align-items: center;
+}
+
+.right-items p {
+    padding-right: 10px;
+}
+
+.todo-detail {
+    display: flex;
+    align-items: center;
+}
+
+.todo-detail h4 {
+    padding-right: 10px;
+}
+
+.docId {
+    padding-right: 10px;
+}
